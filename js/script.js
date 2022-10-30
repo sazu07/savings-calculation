@@ -36,7 +36,7 @@ function calculateSavings(){
  saveAmount.innerText = totalSave;
   const remainBalance= balanceAmount-totalSave
   console.log(remainBalance)
-  const fainalBalance=document.getElementById('remaining-balance');
+  const fainalBalance=document.querySelector(".remaining-balance");
   fainalBalance.innerText=remainBalance;
   
  
